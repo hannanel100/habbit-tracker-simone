@@ -16,8 +16,8 @@ const months = [
   "December",
 ];
 
-export const Year = ({ year }: { year: number }) => {
-  const currentYear = year || new Date().getFullYear();
+export const Year = () => {
+  const currentYear = new Date().getFullYear();
 
   return (
     <div className="min-h-screen flex items-center justify-center">
